@@ -1,0 +1,18 @@
+{
+	"name": "investment_performance_data",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Investment_Performance_Data",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "prism_performance_data.json",
+				"container": "investment-performance-data"
+			}
+		}
+	}
+}
